@@ -1,0 +1,99 @@
+/* CSS for Homework Assignment 4
+   jQuery - Crystal Collector
+   Rhonda Johnson */
+
+
+/* * {
+    overflow: auto;
+}*/
+
+html, body { 
+    margin: 0; 
+    padding: 0;     
+}
+
+#wrapper {
+	width: 100%;
+	max-width:960px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#gameTitle{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#instructionCard{
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+#targetNumber{
+    margin-top: 20px;
+}
+
+#gameTitle{   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.purple{
+    color: purple;
+}
+
+.center{
+    text-align: center;
+}
+
+.mainColor{
+    color: red;
+}
+#mainContainer{
+    width: 90%;
+    border: 3px solid;
+    margin-top: 20px;
+    margin-left: auto;
+    background-image: url("../images/turquoise.jpg");
+   
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+p{
+    margin: 0;
+    font-weight: 600;
+}
+
+#instructionLabel{
+    margin-bottom: 0;
+}
+
+.card-title{
+    margin-bottom: 2px;
+}
+.card-body{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+img{
+    height: 75px;
+}
+
+
+/* media queries */
+@media screen and (max-width:768px){
+    #wrapper {
+        max-width: 768px;
+     }
+}
+
+
+@media screen and (max-width:640px){
+    #wrapper {
+         max-width: 640px;
+    }
+}

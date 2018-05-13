@@ -1,0 +1,126 @@
+<!--Main Index page - Assignment 4
+    jQuery - Crystal Collector
+    Rhonda Johnson -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Crystal Collector</title>
+    <!--<link rel="stylesheet" href="assets/css/reset.css">-->
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Custom Javascript - at the bottom of the body-->
+    <!--<script src="assets/javascript/game.js"></script>-->
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!-- main container -->
+        <div id="mainContainer" class="container">
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 id="gameTitle" class="center purple">Crystal Collector</h2>
+                </div>
+            </div>
+
+            <!-- Instruction Area -->
+            <div class="row">
+                <div id="instructionCard" class="card w-80">
+                    <div class="card-body">
+                        <h5 id="instructionLabel" class="card-title underline mainColor">Instructions</h5>
+                        <section id="instructionsText" class="card-text mainColor">
+                            <p> - You will be given a random number at the start of the game.</p>
+                            <p> - There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                                to your total score.</p>
+                            <p> - You win the game by matching your total score to the random number. You lose the game if your
+                                total score goes above the random number. </p>
+                            <p> - Each time the game starts, the game will change the values of each crystal.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Game information -->
+            <div id="gameInfo" class="row">
+                <div class="col-2">
+                    <h1> </h1>
+                </div>
+
+                <!-- Current number to guess -->
+                <div id="numberToGuess" class="card col-4">
+                    <div class="card-body">
+                        <h5 id="targetText" class="card-title underline center mainColor">Target Number</h5>
+                        <!-- targetNumber will get generated each new game -->
+                        <h5 id="targetNumber" class="center mainColor">currentNumber</h5>
+                    </div>
+                </div>
+
+                <!-- Win/Loss Scores  -->
+                <div id="scores" class="card col-4">
+                    <div class="card-body">
+                        <h5 id="winLossMessage" class="underline center mainColor">Let's Get Started</h5>
+                        <p class="center">
+                            <span class="mainColor">Wins: </span>
+                            <span id="winCount" class="mainColor">0</span>
+                        </p>
+                        <p class="center">
+                            <span class="mainColor">Losses: </span>
+                            <span id="lossCount" class="mainColor">0</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Area for 4 Crystals -->
+            <div id="crystalRow" class="row">
+                <div class="col-2">
+                    <h1> </h1>
+                </div>
+                <div id="crystalCard" class="card col-8">
+                    <div class="card-body">
+                        <!-- Crystal images will be added with jQuery -->
+                        <div id="crystals" class="center">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player Running Total Area -->
+            <!-- Running total will update with each click of a crystal -->
+            <div class="row">
+                <div class="col-2">
+                    <h1> </h1>
+                </div>
+                <div id="playerTotal" class="card col-8">
+                    <div class="card-body">
+                        <h5 id="runningTotalMessage" class="card-title underline center mainColor">Your Running Total Is: </h5>
+                        <h3 id="runningTotal" class="card-text center mainColor">0</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Javascript -->
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
