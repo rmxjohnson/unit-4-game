@@ -88,7 +88,7 @@ $(document).ready(function () {
             imageCrystal.attr("src", crystalButton[i]);
 
             // Each imageCrystal will be given a data attribute called data-crystalValue.
-            // This data attribute will be set equal to the array value.
+            // This data attribute will be set equal to the current crystal value.
             imageCrystal.attr("data-crystalvalue", crystalValue);
 
             // Lastly, each crystal image (with all it classes and attributes) will get added to the page.
