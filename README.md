@@ -16,8 +16,9 @@
 	
 	
 	javascript / jQuery:
-	For each game, we will generate a random target number between 19 & 120
-	For each game, we will create 4 imageCrystals
+	Each new game will generate a random target number between 19 & 120
+	Each new game will create 4 imageCrystals
+	Each crystal will be assigned a value between 1 and 12
 	Each crystal will be given the class ".crystal-image"
 	Each imageCrystal will be given a source (src) link to the crystal image.  (An array holds a list of the image files)
 	Each imageCrystal will be given a data attribute called data-crystalValue. This is a random number between 1 & 12.
