@@ -3,6 +3,9 @@
     jQuery - Crystal Collector
     Rhonda Johnson 
 
+	Link to deployed project
+	https://rmxjohnson.github.io/unit-4-game/
+	
     This is an interactive game for web browsers.  
 	A jQuery library will dynamically update the HTML page.
 	Bootstrap is used to display the HTML page.

@@ -28,7 +28,7 @@ $(document).ready(function () {
         // Player Wins : total = targetNumber
         if (playerTotal == targetNumber) {
             wins++;
-                       $("#winLossMessage").text("You Win! Great Job!!")
+            $("#winLossMessage").text("You Win! Great Job!!")
             $("#winCount").text(wins);
 
             // Clear the crystals div
