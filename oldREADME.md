@@ -1,5 +1,4 @@
-# Readme:
-
+	Readme:
 	Assignment 4
     jQuery - Crystal Collector
     Rhonda Johnson 
@@ -39,7 +38,3 @@
 	## Home Page
 
 	![home.png](assets/images/home.png)	
-
-
-    
-
