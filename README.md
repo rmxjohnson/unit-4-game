@@ -34,3 +34,7 @@
     The player wins the game by matching the player total score to the random number. 
 	The player loses the game if the player total score goes above the random number.
     Each time the game starts, the game will generate a new target number and change the values of each crystal.
+	
+	## Home Page
+
+	![home.png](assets/images/home.png)	
